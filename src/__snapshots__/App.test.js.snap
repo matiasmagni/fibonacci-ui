@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component App renders correctly! 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <p>
+      Edit 
+      <code>
+        src/App.js
+      </code>
+       and save to reload.
+    </p>
+    <form
+      onSubmit={[Function]}
+    >
+      <label>
+        Ingrese un número para calcular la secuencia de Fibonacci:
+        <input
+          data-testid="num"
+          id="num"
+          name="num"
+          onChange={[Function]}
+          type="num"
+          value={0}
+        />
+      </label>
+      <input
+        data-testid="calc"
+        id="submitFibonacci"
+        type="submit"
+        value="Calcular"
+      />
+    </form>
+  </header>
+</div>
+`;
